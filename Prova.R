@@ -1,3 +1,3 @@
 library(rio)
 poland <- import("ESS9PL.sav")
-poland$polintr
+summary(poland$polintr)
